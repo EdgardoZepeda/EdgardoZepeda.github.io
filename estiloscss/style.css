@@ -1,0 +1,216 @@
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+img{
+    text-align: right;
+   
+}
+.row{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+li a{
+    color: white;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: justify;
+    justify-content: justify;
+    margin: 1rem 0 3rem 0;
+}
+
+.flags{
+    display: inline-flex;
+    
+}
+
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: initial;
+    color: #fff;
+}
+.socials a i{
+    text-align: center;
+    font-size: 3.0rem;
+    transition: color .4s ease;
+
+}
+
+ 
+
+body{
+
+
+    /*background-size: cover;
+    background-attachment: fixed;
+    background-image: url("C:\Users\Edgardo Zepeda\Desktop\Guias de LIC 02L\Parcial LIC\Parcialimagenes");*/
+    font-family: poppins;
+     margin: 0;
+    display: grid;
+    font-size: 14px;
+}
+
+main{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9bab9b;
+    line-height: 3.8;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 58px;
+    color: #fff;
+    background-color: #811c39;
+
+}
+
+.center a{
+    text-align: center;
+}
+.footer > * {
+flex:   50%;
+}
+
+.footer-left {
+margin-right: 1.25em;
+margin-bottom: 2em;
+}
+
+.footer-left img{
+    width: 50% ;
+}
+
+h2 {
+font-weight: 600;
+font-size: 28px;
+}
+
+p{
+    font-size: 14px;
+    font-size: medium;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+
+.footer li {
+line-height: 2em;
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.footer-rigth {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+flex-flow: row wrap;
+}
+
+.footer-rigth > * {
+flex: 1 25%;
+margin-right: 1.25em;
+}
+
+.box a {
+color: #999;
+}
+.footer-buttom{
+    text-align: center;
+    color: "999";
+    padding-top: 58px;
+}
+
+.footer-left p {
+padding-right: 20%;
+color: #999;
+} 
+
+.socials a{
+    background: #364a62;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.socials a i {
+    color: #e7f2f4;
+    padding: 10px 12px;
+
+
+}
+
+@media screen and (min-width: 600px) {
+.footer-rigth > * {
+flex: 1;
+}
+.footer-left {
+    flex: 1 0px;
+}
+.footer-rigth{
+    flex: 2 0px;
+}
+    
+
+}
+
+@media (max-width: 600px){
+    .footer{
+        padding: 15px;
+
+    }
+    main{
+        font-size: 55px;
+    }
+}
+
+
+.footer {
+/*display: flex;*/
+/*flex-flow: row wrap;
+padding: 50px;*/
+color: #fff;
+background-color:black;
+
+}
+
+.breadcrumb{
+    color: #fff;
+    background: transparent;
+}
+
+
+
+
+
+   
+
